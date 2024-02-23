@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    
+        html {
+            height: 100vh;
+        }
+
+        body {
+            background-color: #EEF0F2;
+            display: flex;
+            flex-direction: column;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 100%;
+            margin: 0;
+        }
+    
+        header {
+            background-color: #534B52;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            font-weight: bold;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+        }
+
+        li a {
+            color: #EEF0F2;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color: #BD1E1E;
+        }
+
+        .colorlist a {
+            color: #534B52;
+            font-weight: bold;
+        }
+
+        .main-content {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            margin: 58px 58px;
+        }
+
+        .svg-container {
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 250px;
+        }
+
+        footer {
+            background-color: #534B52;
+            color: #EEF0F2;
+            text-align: center;
+        }
+
+    </style>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="notebook.html">Notebook</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main-content">
+            <h1>Welcome to Marias First Node Server!</h1>
+            <p>This is a imported html file with content in queries below. You can navigate to different pages with the navmenu above. </p>
+            <br>
+            <p><strong>Let's play a game!</strong></p>
+            <p><strong>Pick an colour that you like and see what you get:</strong></p>
+            <li class="colorlist"><a href="./?color=yellow">Click Yellow</a></li>
+            <li class="colorlist"><a href="./?color=red">Click Red</a></li>
+            <li class="colorlist"><a href="./?color=green">Click Green</a></li>
+
+            <div class="svg-container">
+                <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 28.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 151.72 217.3" style="enable-background:new 0 0 151.72 217.3;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M60.71,150.06c0.08-8.38,1.02-15.46,2.81-21.24c1.79-5.78,4.62-11.07,8.48-15.87c3.87-4.8,8.93-9.93,15.2-15.38
+                                c2.93-2.52,5.72-4.98,8.36-7.39c2.64-2.4,5.02-4.9,7.14-7.51c2.12-2.6,3.78-5.49,5-8.67s1.83-6.75,1.83-10.74
+                                c0-5.29-1.28-10.03-3.85-14.22c-2.56-4.19-6.29-7.53-11.17-10.01c-4.88-2.48-10.82-3.72-17.82-3.72c-8.63,0-15.85,1.73-21.67,5.19
+                                c-5.82,3.46-10.21,8.18-13.18,14.16c-2.97,5.98-4.58,12.76-4.82,20.32H13.47c0.24-10.09,2.62-19.73,7.14-28.93
+                                c4.52-9.2,11.39-16.7,20.63-22.52c9.24-5.82,21.06-8.73,35.46-8.73c11.88,0,22.1,2.12,30.64,6.35
+                                c8.54,4.23,15.12,9.97,19.71,17.21c4.6,7.24,6.9,15.38,6.9,24.41c0,6.76-1.08,12.63-3.23,17.64c-2.16,5-5.01,9.48-8.54,13.43
+                                c-3.54,3.95-7.43,7.67-11.66,11.17c-3.58,2.93-6.78,5.66-9.58,8.18c-2.81,2.52-5.23,4.84-7.26,6.96
+                                c-2.04,2.12-3.71,4.03-5.01,5.74c-2.28,3.17-3.84,6.61-4.7,10.31c-0.85,3.7-1.36,8.32-1.53,13.86H60.71z M58.03,204.02v-27.47
+                                h27.22v27.47H58.03z"/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </section>
+        <footer>
+            <p>Node Server assignment by Maria Hendricks</p>
+        </footer>
+    </body>
+</html>
